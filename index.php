@@ -15,21 +15,19 @@
             </div>
         </div>
         <div class="col-12">
-            <form action="" method="GET">
+            <form action="dashboard.php" method="GET">
                 <label for="control-label">Testo</label>
-                <textarea type="text" rows="5" cols="40" name="testo" id="text" placeholder="inserire il testo" class="form-control">inserire</textarea>
+                <textarea type="text" rows="5" cols="40" name="testo" id="text" placeholder="inserire il testo" class="form-control" required></textarea>
                 <div class="row d-flex">
                     <div class="col-3">
                         <label for="control-label">Parola da sostituire</label>
-                        <input type="text" name="parola" id="word" placeholder="inserire la parola da sostituire" class="form-control">
+                        <input type="text" name="parola" id="word" placeholder="inserire la parola da sostituire" class="form-control" required>
                     </div>
                     <div class="col-1 align-self-end">
                         <button type="submit" class="btn btn-success">Invia</button>
                     </div>
                 </div>
                 
-                    
-
             </form>
         </div>
     </div>
