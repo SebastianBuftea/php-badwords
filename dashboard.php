@@ -1,3 +1,9 @@
+<?php 
+$text = $_GET['testo'];
+$word = $_GET['parola'];
+
+$new_text= str_replace($word, '***', $text)
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +14,19 @@
     <title>Document</title>
 </head>
 <body>
-    BENVENUTO
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3>Ciao questo è il testo originale</h3>
+                <div> <?php echo $text?></div>
+                <div> <?php echo strlen($text)?></div>
+            </div>
+            <div class="col-6">
+                <h3>Ciao questo è il testo modificato</h3>
+                <div> <?php echo $new_text?></div>
+                <div> <?php echo strlen($new_text)?></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
