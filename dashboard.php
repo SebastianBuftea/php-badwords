@@ -15,16 +15,16 @@ $new_text= str_replace($word, '***', $text)
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-6">
+        <div class="row my-5 justify-content-center">
+            <div class="col-5 back_g_gray m-2">
                 <h3>Ciao questo è il testo originale</h3>
-                <div> <?php echo $text?></div>
-                <div> <?php echo strlen($text)?></div>
+                <div class="border_text"> <?php echo $text?></div>
+                <h5 class="my-2">Lunghezza: <?php echo strlen($text)?></h5>
             </div>
-            <div class="col-6">
-                <h3>Ciao questo è il testo modificato</h3>
-                <div> <?php echo $new_text?></div>
-                <div> <?php echo strlen($new_text)?></div>
+            <div class="col-5 back_g_gray m-2">
+                <h3> Questo invece è il testo modificato</h3>
+                <div class="border_text"> <?php echo $new_text?></div>
+                <h5 class="my-2">Lunghezza: <?php echo strlen($new_text)?></h5>
             </div>
         </div>
     </div>

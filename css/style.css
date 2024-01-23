@@ -5,6 +5,20 @@
 }
 
 body {
-    background-color: rgb(85, 83, 0);
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(9, 0, 61) 40%, rgb(89, 116, 0));
     color: white;
+}
+
+.back_g_gray {
+    background-color: gray;
+}
+
+.border_text {
+    border: 2px groove rgb(0, 0, 46);
+    padding: 10px;
+}
+
+h5 {
+    color: rgb(238, 255, 0);
 }

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row my-2">
             <div class="col-12 text-center">
                 <h1>INSERISCI IL TESTO E LA PAROLA DA CENSURARE</h1>
             </div>
@@ -18,7 +18,7 @@
             <form action="dashboard.php" method="GET">
                 <label for="control-label">Testo</label>
                 <textarea type="text" rows="5" cols="40" name="testo" id="text" placeholder="inserire il testo" class="form-control" required></textarea>
-                <div class="row d-flex">
+                <div class="row d-flex py-3">
                     <div class="col-3">
                         <label for="control-label">Parola da sostituire</label>
                         <input type="text" name="parola" id="word" placeholder="inserire la parola da sostituire" class="form-control" required>
