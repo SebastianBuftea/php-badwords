@@ -17,9 +17,12 @@
         <div class="col-12">
             <form action="" method="GET">
                 <label for="control-label">Testo</label>
-                <textarea type="text" rows="5" cols="40" name="testo" id="text" placeholder="inserire il testo" class="form-control">
-                <label for="control-label">Parola da sostituire</label>
-                <input type="text" name="parola" id="word" placeholder="inserire la parola da sostituire" class="form-control">
+                <textarea type="text" rows="5" cols="40" name="testo" id="text" placeholder="inserire il testo" class="form-control">inserire</textarea>
+                <div class="col-3">
+                    <label for="control-label">Parola da sostituire</label>
+                    <input type="text" name="parola" id="word" placeholder="inserire la parola da sostituire" class="form-control">
+                </div>
+                
             </form>
         </div>
     </div>
